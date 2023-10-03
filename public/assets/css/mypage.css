@@ -1,0 +1,65 @@
+/* マイページ */
+
+body{
+    background-color: white;
+    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    height: 100vh;
+    margin: 0;
+}
+
+main{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    color: #808080;
+}
+
+.menu-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.menu{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+.mypage-img{
+    width: 45px;
+}
+
+.menu-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.mypage-a{
+    color: #808080;
+}
+
+.mypage-span{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+table{
+    border-collapse:  collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    background-color: rgb(141, 253, 232);
+    color: #696969;
+}
+
+th, td{
+    border: solid 1px #808080;
+    padding: 10px;
+}

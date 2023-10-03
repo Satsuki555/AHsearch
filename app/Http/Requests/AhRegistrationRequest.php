@@ -1,0 +1,37 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rules\Password;
+
+class AhRegistrationRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     */
+    public function rules(): array
+    {
+        return [
+            'ah-name' => 'required | max:30',
+            'kana' => 'required | max:30',
+            'tel' => 'required | numeric | max_digits:11',
+            'email' => 'required | max:100 | email |unique:users,email',
+            'password' => ['required',Password::min(8)->letters()->mixedCase()->numbers(), 'max:24', 'confirmed'],
+        ];
+    }
+}
+
+//->uncompromised(3)

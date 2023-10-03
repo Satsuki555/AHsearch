@@ -1,0 +1,105 @@
+/* パスワードリセット */
+
+body{
+    background-color: white;
+    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    height: 100vh;
+    margin: 0;
+}
+
+main{
+    height: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: #696969;
+    margin: 5% 10%;
+}
+
+h1{
+    margin-top: 10%;
+    text-align: center;
+    color: #808080;
+}
+
+.p-wrap{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.send-p{
+    margin: 10% 20%;
+}
+
+p{
+    font-size: 20px;
+    color: #808080;
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+}
+
+label{
+    margin-top: 5%;
+}
+
+input{
+    margin-top: 2%;
+    height: 40px;
+    border: solid 1px #696969;
+    border-radius: 6px;
+}
+
+.btn{
+    text-align: center;
+    margin: auto 30%;
+}
+
+.btns{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-btn{
+    text-align: center;
+}
+
+button{
+    margin-top: 3%;
+    width: 80%;
+    height: 50px;
+    color: #696969;
+    font-size: 20px;
+}
+
+.back{
+    background-color: white;
+    border: solid 3px rgb(141, 253, 232);
+    border-radius: 10px;
+}
+
+.send{
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+}
+
+.pass-reset{
+    text-align: center;
+}
+
+a{
+    color: #3333FF;
+}
+
+.err{
+    color: red;
+}
+
+.alert-error{
+    color: red;
+}

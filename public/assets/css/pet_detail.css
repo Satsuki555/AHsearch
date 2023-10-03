@@ -1,0 +1,204 @@
+/* うちの子カルテ 一覧画面*/
+
+body{
+    background-color: white;
+    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    height: 100vh;
+    margin: 0;
+}
+
+.main{
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: #696969;
+    margin: 5% 10%;
+}
+
+.basic{
+    border: solid 2px #d3d3d3;
+    padding: 5%;
+    margin: 5% 15%;
+}
+
+.basic-top{
+    display: flex;
+    color: #696969;
+    
+}
+
+.span-wrap{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    padding-top: 10%;
+    text-align: center;
+    color: #808080;
+}
+
+.confirm-p{
+    margin: 5% 15%;
+}
+
+.p-wrap{
+    text-align: center;
+}
+
+p{
+    color: #696969;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    line-height: 38px;
+}
+
+.complet-p{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.err{
+    color: red;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+label{
+    margin-top: 5%;
+}
+
+.conf-wrap{
+    display: flex;
+}
+
+.conf{
+    margin-top: 5%;
+}
+
+.input{
+    margin-top: 2%;
+    height: 40px;
+    border: solid 1px #696969;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+select{
+    margin-top: 2%;
+    height: 40px;
+    border: solid 1px #696969;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.input_img{
+    width:100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.pet-name{
+    margin-left: 5%;
+}
+
+.name-span{
+    font-size: 30px;
+}
+
+.pets-btn-wrap{
+    text-align: center;
+}
+
+/* ペットごとのボタン */
+.pets-btn{
+    display: inline-block;
+    background-color: white;
+    border: solid 3px rgb(141, 253, 232);
+    border-radius: 10px;
+    width: 70%;
+    height: 120px;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.pet-a{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    color: #696969;
+    font-size: 25px;
+    word-break: break-all;
+}
+
+.find-span-wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.time{
+    margin-top: 9%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.sub-span{
+    font-size: 15px;
+}
+
+.btns{
+    text-align: center;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+button{
+    margin-top: 3%;
+    width: 30%;
+    height: 50px;
+    color: #696969;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 10%;
+    height: 50px;
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+    color: #696969;
+    font-size: 20px;
+}
+
+.update{
+    width: 60%;
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+    margin: auto 20%;
+    margin-bottom: 3%;
+}
+
+.back{
+    background-color: white;
+    border: solid 3px rgb(141, 253, 232);
+    border-radius: 10px;
+}
+
+.send{
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+}
+
+.pdf-btn{
+    text-align: right;
+}

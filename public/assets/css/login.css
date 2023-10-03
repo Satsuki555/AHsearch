@@ -1,0 +1,86 @@
+/* ログイン */
+
+body{
+    background-color: white;
+    font-family:"HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    height: 100vh;
+    margin: 0;
+}
+
+main{
+    height: 90%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: #696969;
+    margin: 5% 10%;
+}
+
+h1{
+    text-align: center;
+    color: #808080;
+}
+
+.p-wrap{
+    margin-top: 3%;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: #808080;
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+}
+
+label{
+    margin-top: 5%;
+}
+
+input{
+    margin-top: 2%;
+    height: 40px;
+    border: solid 1px #696969;
+    border-radius: 6px;
+}
+
+.button{
+    margin-top: 10%;
+    height: 50px;
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+    color: #696969;
+    font-size: 20px;
+}
+
+.back{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+    color: #696969;
+    font-size: 15px;
+}
+
+.pass-reset{
+    text-align: center;
+}
+
+a{
+    color: #3333FF;
+}
+
+.err{
+    color: red;
+}
+
+.alert-error{
+    color: red;
+}
