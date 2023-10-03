@@ -48,15 +48,6 @@ class ResetController extends Controller
         return view('reset.reset_mail');
     }
 
-    //  メール送信(テスト)
-    public function send()
-    {
-        Mail::send(['text' => 'mails.password_reset_mail'],['name' => 'AHsearch'],function($message){
-            $message->to('ruri_ema@yahoo.co.jp','to AHsearch')->subject('test');
-            $message->from('puroguramingutest@gmail.com','AHsearch');
-        });
-    }
-
     //  メール送信
     public function mailSend(ResetMailRequest $request)
     {   
