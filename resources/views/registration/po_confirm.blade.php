@@ -70,8 +70,8 @@
 
             <input type="hidden" name="role" id="po_role" value="{{ $registration['role'] }}">
 
-            <button type="submit" name="action" value="back">戻る</button>
-            <button type="submit" name="action" value="submit">送信</button>
+            <button type="submit" name="action" value="back" class="back-btn">戻る</button>
+            <button type="submit" name="action" value="submit" class="button">送信</button>
 
         </form>
 
