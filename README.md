@@ -39,4 +39,6 @@ PHP自作
 
 ## 環境
 
+XAMPP/MySQL/PHP
+
 ## データベース
