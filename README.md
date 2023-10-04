@@ -39,7 +39,7 @@ PHP自作
 
 ## 環境
 
-XAMPP/MySQL/PHP
+XAMPP/MySQL/PHP8.1/Laravel10
 
 ## データベース
 
@@ -47,4 +47,6 @@ XAMPP/MySQL/PHP
 
 テーブル
 
-お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポートしていただければお使いいただけるようになると思います。
+お使いのphpMyAdminに上のデータベースを作り、コマンドプロンプトまたはターミナルで
+php artisan migrate
+を実行していただければお使いいただけるようになると思います。
