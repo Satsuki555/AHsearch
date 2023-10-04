@@ -20,7 +20,7 @@
         </div>
 
         <div class="complet-btn">
-        <a href="{{ route('ah_login') }}"><button>ログインする</button></a>
+        <a href="{{ route('ah_login') }}"><button class="button">ログインする</button></a>
         </div>
 
     </main>
