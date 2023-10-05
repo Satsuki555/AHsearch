@@ -26,6 +26,7 @@
 
     <div class="btns">
         <button class="back" type="button" onClick="history.back()">戻る</button>
+        <a href="{{ route('user_list') }}"><button class="back">戻る</button></a>
         <a href="{{ route('ah_member_change',$user->id) }}"><button class="send">変更する</button></a>
     </div>
 
