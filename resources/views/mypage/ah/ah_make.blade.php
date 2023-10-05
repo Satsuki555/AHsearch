@@ -33,7 +33,7 @@
                 {{ $errors -> first('explanation')}}
             </div>
         @endif
-        <input type="text" name="explanation" id="explanation" class="input" placeholder="病院説明" value="{{ old('explanation') }}">
+        <textarea name="explanation" id="explanation" class="input" placeholder="病院説明" cols="30" rows="10">{{ old('explanation') }}</textarea>
 
         <label for="time">診察時間を入力してください。</label>
         @if($errors -> has('time'))
