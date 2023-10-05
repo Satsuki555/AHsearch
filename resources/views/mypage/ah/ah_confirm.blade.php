@@ -35,7 +35,7 @@
             <div class="conf-wrap">
                 <label for="explanation">病院説明：</label>
                 <div class="conf">
-                    {{ $ah['explanation'] }}
+                {!! nl2br(e($ah['explanation'])) !!}
                 </div>
                 <input type="hidden" name="explanation"
                 value="{{ $ah['explanation'] }}">
