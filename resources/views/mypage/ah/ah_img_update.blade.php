@@ -12,7 +12,7 @@
 <body>
     @include('/compornents.login_header')
 
-    <main>
+    <main class="main">
 
         <h1>病院情報編集</h1>
 
