@@ -37,7 +37,7 @@
             電話番号：{{ $ah->tel }}<br>
             駐車場(台)：{{ $ah->parking }}<br>
             保険対応：{{ $ah->insurance }}<br>
-            ホームページ：{{ $ah->hp }}<br></p>
+            ホームページ：<a href="{{ $ah->hp }}">{{ $ah->hp }}</a></p>
         </div>
 
     </div>
