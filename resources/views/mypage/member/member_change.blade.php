@@ -64,7 +64,7 @@
         <div class="btns">
         <button class="back" type="button" onClick="history.back()">戻る</button>
         <button type="submit" class="send">確認</button>
-    </div>
+        </div>
 
     </form>
 

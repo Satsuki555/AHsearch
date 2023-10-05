@@ -103,3 +103,29 @@ a{
     font-size: 20px;
 }
 
+.btns{
+    text-align: center;
+}
+
+.send-button{
+    margin-top: 10%;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(141, 253, 232);
+    border: solid 1px rgb(141, 253, 232);
+    border-radius: 10px;
+    color: #696969;
+    font-size: 20px;
+}
+
+.back-button{
+    margin-top: 10%;
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    border: solid 3px rgb(141, 253, 232);
+    border-radius: 10px;
+    color: #696969;
+    font-size: 20px;
+}
+

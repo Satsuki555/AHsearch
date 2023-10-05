@@ -61,8 +61,10 @@
                 value="{{ $member['email'] }}">
             </div>
 
-            <button type="submit" name="action" value="back" class="button">戻る</button>
-            <button type="submit" name="action" value="submit" class="back-btn">変更</button>
+            <div class="btns">
+            <button type="submit" name="action" value="submit" class="send-button">変更</button>
+            <button type="submit" name="action" value="back" class="back-button">戻る</button>
+            </div>
 
         </form>
 
