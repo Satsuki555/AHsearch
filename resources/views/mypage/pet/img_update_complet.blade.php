@@ -12,7 +12,7 @@
 <body>
     @include('/compornents.login_header')
 
-    <main>
+    <main class="main">
         <h1>登録完了</h1>
 
         <div class="complet-p">
