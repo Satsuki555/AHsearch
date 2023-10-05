@@ -14,7 +14,7 @@
 
     <main>
     
-    <a href="{{ route('mypage') }}"><button class="back">戻る</button></a>
+    <a href="{{ route('search') }}"><button class="back">戻る</button></a>
 
         <h1>病院検索</h1>
 
