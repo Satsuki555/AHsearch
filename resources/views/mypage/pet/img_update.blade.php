@@ -12,7 +12,7 @@
 <body>
     @include('/compornents.login_header')
 
-    <main>
+    <main class="main">
 
         <h1>うちの子カルテ登録</h1>
 
