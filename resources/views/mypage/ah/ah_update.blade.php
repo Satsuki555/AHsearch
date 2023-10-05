@@ -37,9 +37,8 @@
                 {{ $errors -> first('explanation')}}
             </div>
         @endif
-        <input type="text" name="explanation" id="explanation" class="input" placeholder="病院説明" 
-        value="@if(old('explanation')){{ old('explanation') }}
-        @else{{ $ah->explanation }}@endif">
+        <textarea name="explanation" id="explanation" class="input" placeholder="病院説明" cols="30" rows="10">@if(old('explanation')){{ old('explanation') }}
+        @else{{ $ah->explanation }}@endif</textarea>
 
         <label for="time">診察時間を入力してください。</label>
         @if($errors -> has('time'))
@@ -47,9 +46,8 @@
                 {{ $errors -> first('time')}}
             </div>
         @endif
-        <input type="text" name="time" id="time" class="input" placeholder="診察時間" 
-        value="@if(old('time')){{ old('time') }}
-        @else{{ $ah->time }}@endif">
+        <textarea name="time" id="time" class="input" placeholder="診察時間" cols="30" rows="10">@if(old('time')){{ old('time') }}
+        @else{{ $ah->time }}@endif</textarea>
 
         <label for="animal">診察可能動物を入力してください。<br>
         (例)犬、猫、うさぎetc</label>
