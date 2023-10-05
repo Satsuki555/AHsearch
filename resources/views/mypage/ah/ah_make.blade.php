@@ -103,13 +103,7 @@
                 {{ $errors -> first('reservation')}}
             </div>
         @endif
-        <select name="reservation">
-        @if(old('reservation'))
-            <option value="{{ old('reservation') }}">{{ old('reservation') }}</option>
-        @endif
-        <option value="有">有</option>
-        <option value="無">無</option>
-        </select>
+        <input type="text" name="reservation" id="reservation" class="input" placeholder="予約" value="{{ old('reservation') }}">
 
 
         <label for="address">住所を入力してください。</label>
